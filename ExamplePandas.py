@@ -1,3 +1,8 @@
-print("hii \naa\trya")
-# hiiiiiiiiiiiiiiiiiiiiii
-print("i am good\"girl\"")
+import pandas as pd
+
+data = pd.DataFrame({
+    "Name": ["Aaru"],
+    "Age": [20]
+})
+
+print(data)
